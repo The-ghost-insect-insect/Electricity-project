@@ -1,0 +1,23 @@
+{
+  "id": "1663665",
+  "name": "锤子",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1048867",
+      "name": "密码",
+      "font_class": "icon_password",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "1133813",
+      "name": "联系人",
+      "font_class": "lianxiren",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    }
+  ]
+}

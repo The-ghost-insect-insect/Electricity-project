@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首页</title>
     <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../css/index.css">
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <style>
+        *{margin: 0; padding: 0;}
+        .navigation,.carousel{
+            width: 1218px;
+            margin: 0 auto;
+        }
+        .nav{width: 100%;}
+        .navbar{background: black;}
+        .navbar-default .navbar-nav>li>a{color:white}
+        .carousel {height:552px;border: 1px solid black;}
+    </style>
 </head>
 <body>
-    <h1>这是一个首页</h1>
-    <script src="../js/index.js"></script>
+    <div class="navigation">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                </div>
+                <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav list-left">
+                        <li class="active"><a href="#">在线商城<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">坚果 Pro 3</a></li>
+                        <li><a href="#">坚果 Pro 2S</a></li>
+                        <li><a href="#">坚果 TNT 工作站</a></li>
+                        <li><a href="#">Smartisan OS</a></li>
+                        <li><a href="#">欢喜云</a></li>
+                        <li><a href="#">应用</a></li>
+                        <li><a href="#">论坛</a></li>
+                        <li class="zhuce navbar-right"><a href="#">注册</a></li>
+                        <li class="denglu navbar-right"><a href="#">登录</a></li>
+                    </ul>       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="carousel ">
+
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.nav>li').click(function(){
+                $(this).addClass('active'). siblings().removeClass('active')
+            })
+            $('.zhuce').dblclick(function(){
+                $(location).attr('href', './zhuce.html');
+            })
+            $('.denglu').dblclick(function(){
+                $(location).attr('href', './login.html');
+            })
+        })
+
+    </script>
 </body>
+
 </html>

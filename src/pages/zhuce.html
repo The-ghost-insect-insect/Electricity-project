@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../lib/jquery/dist/jquery.min.js "></script>
     <link rel="stylesheet" href="../lib/iconfont/iconfont.css">
-    <title>登录页面</title>
+    <title>注册页面</title>
     <style>
         *{margin: 0; padding: 0;}
         .zhuce{width:450px;height:642px;margin: 20px auto; border-radius: 5px;box-shadow: 0 9px 30px -6px rgba(0,0,0,.2), 0 18px 20px -10px rgba(0,0,0,.04), 0 18px 20px -10px rgba(0,0,0,.04), 0 10px 20px -10px rgba(0,0,0,.04);}
@@ -22,7 +22,7 @@
 <body>
     <div class="zhuce">
         <div class="title">
-            <h4 ng-bind="dialogTitle" class="ng-binding">使用 Smartisan ID 登录官网</h4>
+            <h4 ng-bind="dialogTitle" class="ng-binding">使用 Smartisan ID 注册官网</h4>
         </div>
         <form>
             <div class="xinxi">
@@ -36,11 +36,42 @@
                     <input type="text" placeholder="请输入您的密码">
                     <span></span>
                 </div>
+                <div class="password">
+                    <span class="icon iconfont icon-icon_password"></span>
+                    <input type="text" placeholder="请再次输入您的密码">
+                    <span></span>
+                </div>
                 <div class="btn">
-                    登录
+                    注册
                 </div>
         </form>
         </div>
     </div>
+    <script>
+        $(document).ready(function(){
+            $('.btn').click(function(){
+                let shuju = 'phone='+$('.phone>input').val()+"&password="+$('.password>input').val()
+                console.log(shuju)
+                $.ajax(
+                    {
+                        type:"POST",
+                        url:"/gx",
+                        dataType:"json",
+                        data: shuju,
+                        success:function(result,status,xhr){
+                            console.log(result)
+                            console.log(status)
+                            console.log(xhr)
+                        },
+                        error:function(xhr,status,error){
+                            console.log("这是失败"+xhr)
+                            console.log("这是失败"+status)
+                            console.log("这是失败"+error)
+                        }
+                    }
+                )
+            })
+        })
+    </script>
 </body>
 </html>
