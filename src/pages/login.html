@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,106 @@
     <link rel="stylesheet" href="../lib/iconfont/iconfont.css">
     <title>登录页面</title>
     <style>
-        *{margin: 0; padding: 0;}
-        .zhuce{width:450px;height:642px;margin: 20px auto; border-radius: 5px;box-shadow: 0 9px 30px -6px rgba(0,0,0,.2), 0 18px 20px -10px rgba(0,0,0,.04), 0 18px 20px -10px rgba(0,0,0,.04), 0 10px 20px -10px rgba(0,0,0,.04);}
-        .title{width: 450px; height:167px; background: url(https://static.smartisanos.cn/account.common/img/v2/logo/smartisan_4ada7fecea@2x.png) no-repeat; background-size: 160px; background-position: top center;}
-        .ng-binding{position: relative; top:147px; text-align: center;}
-        .xinxi{width:450px; height:401px; margin-top:50px;}
-        .phone,.password{width:370px;height:48px; border: 1px solid black; margin: 0 auto; margin-bottom: 12px; border-radius: 5px;}
-        .icon{width: 46px; height:46px;overflow: hidden;float: left;box-shadow: 1px 0 3px -1px rgba(0,0,0,.1);border-radius: 6px 0 0 6px;border-right: solid 1px #ccc;}
-        .icon-lianxiren,.icon-icon_password{text-align: center; font-size: 20px;line-height: 46px;}
-        input{outline: none;height:46px; width:170px;font-size: 16px; border: none;text-indent:26px;}
-        .btn{width: 60px; height: 48px; border-radius: 5px; border: 1px solid black; box-shadow: 2px 2px 2px 2px gray; margin: 30px auto; text-align: center; line-height: 48px; }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .zhuce {
+            width: 450px;
+            height: 642px;
+            margin: 20px auto;
+            border-radius: 5px;
+            box-shadow: 0 9px 30px -6px rgba(0, 0, 0, .2), 0 18px 20px -10px rgba(0, 0, 0, .04), 0 18px 20px -10px rgba(0, 0, 0, .04), 0 10px 20px -10px rgba(0, 0, 0, .04);
+        }
+
+        .title {
+            width: 450px;
+            height: 167px;
+            background: url(https://static.smartisanos.cn/account.common/img/v2/logo/smartisan_4ada7fecea@2x.png) no-repeat;
+            background-size: 160px;
+            background-position: top center;
+        }
+
+        .ng-binding {
+            position: relative;
+            top: 147px;
+            text-align: center;
+        }
+
+        .xinxi {
+            width: 450px;
+            height: 401px;
+            margin-top: 50px;
+        }
+
+        .phone,
+        .password {
+            width: 370px;
+            height: 48px;
+            border: 1px solid black;
+            margin: 0 auto;
+            margin-bottom: 12px;
+            border-radius: 5px;
+        }
+
+        .icon {
+            width: 46px;
+            height: 46px;
+            overflow: hidden;
+            float: left;
+            box-shadow: 1px 0 3px -1px rgba(0, 0, 0, .1);
+            border-radius: 6px 0 0 6px;
+            border-right: solid 1px #ccc;
+        }
+
+        .icon-lianxiren,
+        .icon-icon_password {
+            text-align: center;
+            font-size: 20px;
+            line-height: 46px;
+        }
+
+        input {
+            outline: none;
+            height: 46px;
+            width: 170px;
+            font-size: 16px;
+            border: none;
+            text-indent: 26px;
+        }
+
+        .btn {
+            width: 60px;
+            height: 48px;
+            border-radius: 5px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 2px 2px gray;
+            margin: 30px auto;
+            text-align: center;
+            line-height: 48px;
+        }
+
+        .pho,
+        .pho2 {
+            font-size: 14px;
+            color: red;
+        }
+
+        .dengluxinxi {
+            color: red;
+            font-size: 30px;
+            display: block;
+            width: 300px;
+            height: 30px;
+            line-height: none;
+            text-align: center;
+            margin-left: 80px;
+            margin-top: 30px;
+        }
     </style>
 </head>
+
 <body>
     <div class="zhuce">
         <div class="title">
@@ -29,18 +118,80 @@
                 <div class="phone">
                     <span class="icon iconfont icon-lianxiren"></span>
                     <input type="text" placeholder="请输入您的手机号">
-                    <span></span>
+                    <span class="pho"></span>
                 </div>
                 <div class="password">
                     <span class="icon iconfont icon-icon_password"></span>
                     <input type="text" placeholder="请输入您的密码">
-                    <span></span>
+                    <span class="pho2"></span>
                 </div>
                 <div class="btn">
                     登录
                 </div>
+                <span class="dengluxinxi"></span>
         </form>
-        </div>
     </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            let p = false;
+            $(".phone>input").change(function () {
+                let ph = /^1[3456789]\d{9}$/;
+                if (!(ph.test($(".phone>input").val()))) {
+                    $('.pho').text('手机号格式输入不正确')
+                    return false;
+                } else {
+                    $('.pho').text('')
+                    p = true;
+                    return p;
+                }
+            })
+            let p2 = false;
+            $(".password>input").change(function () {
+                let pa = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8}$/;
+                if (!pa.test($(".password>input").val())) {
+                    $('.pho2').text('密码格式输入不正确')
+                } else {
+                    $('.pho2').text('')
+                    p2 = true;
+                    return p2;
+                }
+            })
+            $('.btn').click(function () {
+                let $name = $('.phone>input')
+                if ($name.val().length === 0) {
+                    $name.next().text('用户名不能为空')
+                }
+                let $password = $('.password>input')
+                if ($password.val().length === 0) {
+                    $password.next().text('密码不能为空')
+                }
+                if (p == true && p2 == true) {
+                    console.log(p, p2)
+                    let shuju = 'phone=' + $('.phone>input').val() + "&password=" + $('.password>input').val()
+                    console.log(shuju)
+                    $.ajax({
+                        type: "POST",
+                        url: "/log",
+                        dataType: "json",
+                        data: shuju,
+                        success: function (response) {
+                            let name = $('.phone>input').val()
+                            let pass = $('.password>input').val()
+                            if(!response){
+                                $('.dengluxinxi').text('用户名或密码失败') 
+                            }else{
+                                $(location).attr('href', './index.html');
+                            }
+                        },
+                        error: function (response) {
+                            $('.dengluxinxi').text(response.responseText)
+                        }
+                    })
+                } else { }
+            })
+        })         
+    </script>
 </body>
+
 </html>
