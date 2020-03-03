@@ -1,0 +1,483 @@
+[
+    {
+        "type": "category",
+        "name": "首页",
+        "url": "https://www.smartisan.com/",
+        "list": [
+            {
+                "source": "product",
+                "title": "手机",
+                "sub": [
+                    {
+                        "name": "手机",
+                        "image": "https://resource.smartisan.com/resource/a4c73e549097c7f5cf2c5e0d87e56d13.png",
+                        "id": "210"
+                    }
+                ]
+            },
+            {
+                "source": "product",
+                "title": "官方配件",
+                "sub": [
+                    {
+                        "name": "数据线",
+                        "image": "https://resource.smartisan.com/resource/82aab62886740f165a3631ce6cffe895.jpg",
+                        "id": "214"
+                    },
+                    {
+                        "name": "充电器",
+                        "image": "https://resource.smartisan.com/resource/dc53bd870ee64d2053ecc51750ece43a.jpg",
+                        "id": "215"
+                    },
+                    {
+                        "name": "线控耳机",
+                        "image": "https://resource.smartisan.com/resource/90be7779c2454407ee5f4b6184c929ed.jpg",
+                        "id": "217"
+                    },
+                    {
+                        "name": "移动电源",
+                        "image": "https://resource.smartisan.com/resource/afcec520933673b8e03a867e6502f6e0.jpg",
+                        "id": "218"
+                    },
+                    {
+                        "name": "拍照配件",
+                        "image": "https://resource.smartisan.com/resource/b9e61c6d93464454fa2e382632e34cee.jpg",
+                        "id": "219"
+                    }
+                ]
+            },
+            {
+                "source": "product",
+                "title": "畅呼吸系列",
+                "sub": [
+                    {
+                        "name": "空气净化器",
+                        "image": "https://resource.smartisan.com/resource/71432ad30288fb860a4389881069b874.png",
+                        "id": "226"
+                    },
+                    {
+                        "name": "生活电器配件",
+                        "image": "https://resource.smartisan.com/resource/4d83d72c5ecc288e8d5ddd9d06b80f99.jpg",
+                        "id": "228"
+                    }
+                ]
+            },
+            {
+                "source": "product",
+                "title": "服饰箱包",
+                "sub": [
+                    {
+                        "name": "箱包",
+                        "image": "https://resource.smartisan.com/resource/9960e83a55544fbf7b046013a6f7f414.jpg",
+                        "id": "237"
+                    },
+                    {
+                        "name": "男装",
+                        "image": "https://resource.smartisan.com/resource/50fd73c82a46bedc43773f0ceffcecb1.jpg",
+                        "id": "230"
+                    },
+                    {
+                        "name": "鞋",
+                        "image": "https://resource.smartisan.com/resource/1db1a8bfee3623fded41c9115b5a5335.jpg",
+                        "id": "235"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "goods",
+        "name": "手机",
+        "url": "https://www.smartisan.com/category/151?type=shop",
+        "list": [
+            {
+                "sell_price": "2399.00",
+                "ali_image": "https://resource.smartisan.com/resource/f195e666e089d4e3775ce67d8e9523ce.png",
+                "sku": "100060201",
+                "spu": "1000602",
+                "sku_name": "坚果 Pro 3",
+                "spu_name": "坚果 Pro 3"
+            },
+            {
+                "sell_price": "2399.00",
+                "ali_image": "https://resource.smartisan.com/resource/9934374dda26c292555dd1ec0887e17b.png",
+                "sku": "100060204",
+                "spu": "1000602",
+                "sku_name": "坚果 Pro 3",
+                "spu_name": "坚果 Pro 3"
+            },
+            {
+                "sell_price": "2399.00",
+                "ali_image": "https://resource.smartisan.com/resource/a4c73e549097c7f5cf2c5e0d87e56d13.png",
+                "sku": "100060207",
+                "spu": "1000602",
+                "sku_name": "坚果 Pro 3",
+                "spu_name": "坚果 Pro 3"
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "name": "官方配件",
+        "url": "https://www.smartisan.com/category/185?type=shop",
+        "list": [
+            {
+                "source": "shop",
+                "title": "耳机",
+                "sub": [
+                    {
+                        "name": "蓝牙耳机",
+                        "image": "https://resource.smartisan.com/resource/a5b6bf1f38fb88dceeb1e917bec288da.jpg",
+                        "id": "233"
+                    },
+                    {
+                        "name": "线控耳机",
+                        "image": "https://resource.smartisan.com/resource/72e4c31e4e623f5c37c6489f6d91efc6.jpg",
+                        "id": "234"
+                    }
+                ]
+            },
+            {
+                "source": "shop",
+                "title": "手机充电配件",
+                "sub": [
+                    {
+                        "name": "数据线",
+                        "image": "https://resource.smartisan.com/resource/c79a73ffc6f8e782160d978f49f543dc.jpg",
+                        "id": "231"
+                    },
+                    {
+                        "name": "充电器",
+                        "image": "https://resource.smartisan.com/resource/dc53bd870ee64d2053ecc51750ece43a.jpg",
+                        "id": "232"
+                    },
+                    {
+                        "name": "移动电源",
+                        "image": "https://resource.smartisan.com/resource/afcec520933673b8e03a867e6502f6e0.jpg",
+                        "id": "235"
+                    }
+                ]
+            },
+            {
+                "source": "shop",
+                "title": "自拍杆",
+                "sub": [
+                    {
+                        "name": "自拍杆",
+                        "image": "https://resource.smartisan.com/resource/b9e61c6d93464454fa2e382632e34cee.jpg",
+                        "id": "236"
+                    }
+                ]
+            },
+            {
+                "source": "shop",
+                "title": "音箱",
+                "sub": [
+                    {
+                        "name": "音箱",
+                        "image": "https://resource.smartisan.com/resource/c44f0ab4da5591fc3d0f82b7ac0f4f65.jpg",
+                        "id": "252"
+                    }
+                ]
+            },
+            {
+                "source": "shop",
+                "title": "车载配件",
+                "sub": [
+                    {
+                        "name": "车载充电器",
+                        "image": "https://resource.smartisan.com/resource/d4480234a2f24b0ff5acd98288fd902d.jpg",
+                        "id": "238"
+                    }
+                ]
+            },
+            {
+                "source": "shop",
+                "title": "保护壳",
+                "sub": [
+                    {
+                        "name": "手机壳",
+                        "image": "https://resource.smartisan.com/resource/77c95763348a108790ef8cc7937b3717.jpeg",
+                        "id": "229"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "name": "服饰箱包",
+        "url": "https://www.smartisan.com/category/157",
+        "list": [
+            {
+                "source": "shop",
+                "title": "服饰",
+                "sub": [
+                    {
+                        "name": "衬衫",
+                        "image": "https://resource.smartisan.com/resource/5e7c8e2681ff540cf445740533ba9743.png",
+                        "id": "203"
+                    },
+                    {
+                        "name": "卫衣",
+                        "image": "https://resource.smartisan.com/resource/7338b5424bdb6ffae1c6616b846f9d62.jpg",
+                        "id": "205"
+                    },
+                    {
+                        "name": "T恤",
+                        "image": "https://resource.smartisan.com/resource/d01dcb91b34b26cda7064a3c9bf655c4.png",
+                        "id": "202"
+                    },
+                    {
+                        "name": "POLO衫",
+                        "image": "https://resource.smartisan.com/resource/daa975651d6d700c0f886718c520ee19.jpg",
+                        "id": "204"
+                    }
+                ]
+            },
+            {
+                "source": "shop",
+                "title": "鞋",
+                "sub": [
+                    {
+                        "name": "帆布鞋",
+                        "image": "https://resource.smartisan.com/resource/1db1a8bfee3623fded41c9115b5a5335.jpg",
+                        "id": "206"
+                    }
+                ]
+            },
+            {
+                "source": "shop",
+                "title": "箱包",
+                "sub": [
+                    {
+                        "name": "拉杆箱",
+                        "image": "https://resource.smartisan.com/resource/9960e83a55544fbf7b046013a6f7f414.jpg",
+                        "id": "207"
+                    },
+                    {
+                        "name": "包",
+                        "image": "https://resource.smartisan.com/resource/cef4a5433eb95cbdf242d3c1bf5617f8.jpg",
+                        "id": "292"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "category",
+        "name": "畅呼吸",
+        "url": "https://www.smartisan.com/category/155?type=shop",
+        "list": [
+            {
+                "source": "shop",
+                "title": "生活电器",
+                "sub": [
+                    {
+                        "name": "空气净化器",
+                        "image": "https://resource.smartisan.com/resource/71432ad30288fb860a4389881069b874.png",
+                        "id": "297"
+                    },
+                    {
+                        "name": "生活电器配件",
+                        "image": "https://resource.smartisan.com/resource/4d83d72c5ecc288e8d5ddd9d06b80f99.jpg",
+                        "id": "298"
+                    },
+                    {
+                        "name": "温/湿度计",
+                        "image": "https://resource.smartisan.com/resource/8d58e1ea15e893647cb789478cb86627.jpg",
+                        "id": "308"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "goods",
+        "name": "打印机",
+        "url": "https://www.smartisan.com/category/302?type=shop",
+        "list": [
+            {
+                "sell_price": 469,
+                "ali_image": "https://resource.smartisan.com/resource/1f1bb248c68392a83a660e773a8ceda7.jpg",
+                "sku": "100060301",
+                "spu": "1000603",
+                "sku_name": "惠普小印手持照片打印机 Sprocket PLUS",
+                "spu_name": "惠普小印手持照片打印机 Sprocket PLUS"
+            },
+            {
+                "sell_price": 439,
+                "ali_image": "https://resource.smartisan.com/resource/f6c83d2ed99d05eb9e3936bbba6fdaeb.jpg",
+                "sku": "100061901",
+                "spu": "1000619",
+                "sku_name": "惠普（HP）DeskJet 2676 彩色喷墨无线多功能打印机",
+                "spu_name": "惠普（HP）DeskJet 2676 彩色喷墨无线多功能打印机"
+            },
+            {
+                "sell_price": 469,
+                "ali_image": "https://resource.smartisan.com/resource/3fdd1ef99b445aaf57726efcbad18fd3.jpg",
+                "sku": "100062001",
+                "spu": "1000620",
+                "sku_name": "惠普（HP）DeskJet 3636 彩色喷墨无线多功能打印机",
+                "spu_name": "惠普（HP）DeskJet 3636 彩色喷墨无线多功能打印机"
+            },
+            {
+                "sell_price": 1199,
+                "ali_image": "https://resource.smartisan.com/resource/1e6afa8b12edb8dc9e4d34d28ef2d8e3.jpg",
+                "sku": "100062201",
+                "spu": "1000622",
+                "sku_name": "惠普（HP）Smart Tank 511 彩色喷墨连供多功能打印机",
+                "spu_name": "惠普（HP）Smart Tank 511 彩色喷墨连供多功能打印机"
+            },
+            {
+                "sell_price": 1159,
+                "ali_image": "https://resource.smartisan.com/resource/eb7a595b90092112c9f370d50a67bae9.jpg",
+                "sku": "100062301",
+                "spu": "1000623",
+                "sku_name": "惠普（HP）Smart Tank 519 彩色喷墨连供多功能打印机",
+                "spu_name": "惠普（HP）Smart Tank 519 彩色喷墨连供多功能打印机"
+            },
+            {
+                "sell_price": 899,
+                "ali_image": "https://resource.smartisan.com/resource/28e9e5aa0b2092c1b1d88923fa98fc7a.jpg",
+                "sku": "100062401",
+                "spu": "1000624",
+                "sku_name": "惠普（HP）Mini M17w 黑白激光无线单功能打印机",
+                "spu_name": "惠普（HP）Mini M17w 黑白激光无线单功能打印机"
+            },
+            {
+                "sell_price": 74,
+                "ali_image": "https://resource.smartisan.com/resource/b161cb80c5d50feca3f4c2555b420e0a.jpg",
+                "sku": "100062501",
+                "spu": "1000625",
+                "sku_name": "惠普(HP) 口袋照片打印机ZINK相纸（20张）",
+                "spu_name": "惠普(HP) 口袋照片打印机ZINK相纸（20张）"
+            },
+            {
+                "sell_price": 59,
+                "ali_image": "https://resource.smartisan.com/resource/b594db66d63aa16fdc583d7174c57baf.jpg",
+                "sku": "100063101",
+                "spu": "1000631",
+                "sku_name": "惠普（HP）GT52彩色墨水",
+                "spu_name": "惠普（HP）GT52彩色墨水"
+            }
+        ]
+    },
+    {
+        "type": "goods",
+        "name": "扫地机器人",
+        "url": "https://www.smartisan.com/category/313?type=shop",
+        "list": [
+            {
+                "sell_price": "1499.00",
+                "ali_image": "https://resource.smartisan.com/resource/69376ec9945e7cafa1fa393439c8835d.jpg",
+                "sku": "100064301",
+                "spu": "1000643",
+                "sku_name": "科沃斯扫地机器人  DH45",
+                "spu_name": "科沃斯扫地机器人  DH45"
+            },
+            {
+                "sell_price": "1499.00",
+                "ali_image": "https://resource.smartisan.com/resource/b6db8976d3fe9a04b0a58dc82099838b.jpg",
+                "sku": "100064201",
+                "spu": "1000642",
+                "sku_name": "科沃斯扫地机器人 DK35",
+                "spu_name": "科沃斯扫地机器人 DK35"
+            },
+            {
+                "sell_price": "1399.00",
+                "ali_image": "https://resource.smartisan.com/resource/1a70c3565e33ecf9817f2082a402d70c.jpg",
+                "sku": "100064401",
+                "spu": "1000644",
+                "sku_name": "科沃斯扫地机器人 DF45",
+                "spu_name": "科沃斯扫地机器人 DF45"
+            },
+            {
+                "sell_price": "1799.00",
+                "ali_image": "https://resource.smartisan.com/resource/b1ea23314be6d08474d8d3e9c7ba6e15.jpg",
+                "sku": "100064501",
+                "spu": "1000645",
+                "sku_name": "科沃斯扫地机器人 DN55",
+                "spu_name": "科沃斯扫地机器人 DN55"
+            }
+        ]
+    },
+    {
+        "type": "goods",
+        "name": "TNT显示屏",
+        "url": "https://www.smartisan.com/category/218?type=shop",
+        "list": [
+            {
+                "sell_price": "1329.00",
+                "ali_image": "https://resource.smartisan.com/resource/2d5bac538fef9800aa5cd8420cfcdc12.jpg",
+                "sku": "100065002",
+                "spu": "1000650",
+                "sku_name": "GoBiggeR 便携式触屏显示器 ZB133TF-W ",
+                "spu_name": "GoBiggeR 便携式触屏显示器 ZB133TF-W "
+            },
+            {
+                "sell_price": "1399.00",
+                "ali_image": "https://resource.smartisan.com/resource/f90eb5c8dd0b6221cfdc0b0c3bdd1b87.jpg",
+                "sku": "100064901",
+                "spu": "1000649",
+                "sku_name": "GoBiggeR  便携式触屏显示器 ZB156TF",
+                "spu_name": "GoBiggeR  便携式触屏显示器 ZB156TF"
+            },
+            {
+                "sell_price": "1999.00",
+                "ali_image": "https://resource.smartisan.com/resource/84b472956d7facb9d7134f7569d3bd84.jpg",
+                "sku": "100064801",
+                "spu": "1000648",
+                "sku_name": "GoBiggeR 便携式触屏显示器  ZB156UT",
+                "spu_name": "GoBiggeR 便携式触屏显示器  ZB156UT"
+            }
+        ]
+    },
+    {
+        "type": "goods",
+        "name": "精选好物",
+        "url": "https://www.smartisan.com/category/311?type=shop",
+        "list": [
+            {
+                "sell_price": "148.00",
+                "ali_image": "https://resource.smartisan.com/resource/834e8388b0017c457c98baa6545cdfb2.jpg",
+                "sku": "100059101",
+                "spu": "1000591",
+                "sku_name": "C-force  USB-C多功能转接器",
+                "spu_name": "C-force  USB-C多功能转接器"
+            },
+            {
+                "sell_price": "1999.00",
+                "ali_image": "https://resource.smartisan.com/resource/84b472956d7facb9d7134f7569d3bd84.jpg",
+                "sku": "100064801",
+                "spu": "1000648",
+                "sku_name": "GoBiggeR 便携式触屏显示器  ZB156UT",
+                "spu_name": "GoBiggeR 便携式触屏显示器  ZB156UT"
+            },
+            {
+                "sell_price": 1159,
+                "ali_image": "https://resource.smartisan.com/resource/22a6f7f927dd45134c9d2794037354f5.jpg",
+                "sku": "100062301",
+                "spu": "1000623",
+                "sku_name": "惠普（HP）Smart Tank 519 彩色喷墨连供多功能打印机",
+                "spu_name": "惠普（HP）Smart Tank 519 彩色喷墨连供多功能打印机"
+            },
+            {
+                "sell_price": "1499.00",
+                "ali_image": "https://resource.smartisan.com/resource/b6db8976d3fe9a04b0a58dc82099838b.jpg",
+                "sku": "100064201",
+                "spu": "1000642",
+                "sku_name": "科沃斯扫地机器人 DK35",
+                "spu_name": "科沃斯扫地机器人 DK35"
+            },
+            {
+                "sell_price": "118.00",
+                "ali_image": "https://resource.smartisan.com/resource/caab276f073e3aba0e5b2567b5ecf19b.png",
+                "sku": "100065401",
+                "spu": "1000654",
+                "sku_name": "STOJO 可折叠硅胶旅行杯",
+                "spu_name": "STOJO 可折叠硅胶旅行杯"
+            }
+        ]
+    }
+]

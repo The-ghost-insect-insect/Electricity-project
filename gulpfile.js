@@ -92,7 +92,11 @@ const serverHandler = () => {
                  {
                   source: '/log',
                   target: 'http://localhost/login.php' 
-                }
+                },
+                {
+                  source: '/gx2',
+                  target: 'https://shopapi.smartisan.com/v1/cms/second_nav' 
+                },
                ]
              })) // 开启服务器
 }

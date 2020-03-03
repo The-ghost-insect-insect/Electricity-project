@@ -1,0 +1,105 @@
+
+.top-layout{
+    height:45px;
+    background-color: red;
+}
+.top{
+    height: 100%;
+    width: 1218px;
+    background-color: black;
+    margin: 0 auto;
+}
+.top-list{
+    width: 100%;
+    height: 100%;
+}
+.top-list>li{
+    float: left;
+    line-height: 1;
+    font-size: 18px;
+    margin-top:13px ;
+    padding-left: 16px;
+    padding-right: 18px;
+}
+.active>a{
+   color:white; 
+}
+.nav-layout{
+    height:75px;
+    background: white;
+    width:100%;
+}
+.nav{
+    width: 1218px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: rgb(174, 173, 173);
+}
+.nav-list{
+    height: 75px;
+}
+.nav .nav-list>li{
+        float: left;
+        line-height: 48px;
+        font-size: 18px;
+        padding-left: 16px;
+}
+.content-layout{
+    height: 300px;
+    background-color: white;
+    display: none;
+}
+.content{
+    width: 1218px;
+    margin: 0 auto;
+    height:300px;
+    background-color: white;
+ 
+}
+.content-list{
+    margin:  0 auto;
+}
+.content-list>.biaoti{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 50px
+
+}
+.content-list img{
+    display: inline-block;
+    width:35px;
+    height: 35px;
+    margin-right: 20px;
+}
+.content-list ol>li{
+   padding:10px 20px 10px 0;
+}
+.swiper-container{
+    width: 1218px;
+    height: 554px;
+    margin: 0 auto;
+    background-color: red;
+}
+.swiper-container>img{
+    height: 554px;
+    width: 1218px;
+    display: inline-block;
+}
+.shangpin-layout{
+    height: 490px;
+    background-color: red;
+    margin-top: 20px;
+
+}
+.shangpin{
+    width: 1218px;
+    height: 490px;
+    margin: 0 auto;
+    background-color: gold;
+}
+.shangpin-top{
+    height: 60px;
+    background-color: hotpink;
+}
+
+
