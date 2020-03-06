@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=../css/reset.css><link rel=stylesheet href=../css/detail.css><script src=../lib/coookie.js></script><script src=../lib/jquery/dist/jquery.min.js></script><title>商品详情界面</title></head><body><div class=xiangqing><ul class=img-list></ul></div><script>let num =localStorage.getItem('goods_info')
+        console.log(JSON.parse(num))
+        num = JSON.parse(num)
+        let str =""
+            str+=  `
+            <li class="clean">
+             <div class="box">
+                <img class="ig" src="${num.image}" alt="">
+             </div>
+             <div class="box2">
+                 <h2>产品名称：${num.name}</h2>
+                 <h3>￥：${num.price}</h3>
+                 <button class="btn">加入购物车</button>
+                 <button class="btn2">直接购买</button>
+               </div>
+         </li> 
+            `
+            $('div>ul').html(str)
+            if(getCookie('登录成功')== "1024"){
+                $('.btn').click(()=>{
+                const cartList = JSON.parse(localStorage.getItem('cartList'))|| []
+                console.log(cartList)
+                let exits = cartList.some(item =>{
+                    return item.id === num.id
+                })
+                if(exits){
+                    let data = null
+                    for(let i =0;i<cartList.length;i++){
+                        if(cartList[i].id === num.id){
+                            data = cartList[i]
+                            break
+                        }
+                    }
+                    data.number++
+                    data.xiaoji = data.price * data.number
+                }else{
+                    num.number = 1
+                    num.xiaoji = num.price
+                    num.isSelect = false
+                    cartList.push(num)
+                }
+                localStorage.setItem('cartList',JSON.stringify(cartList))
+            })
+            }else{
+                alert('您还没有登录您的账号==>请登录')
+                $(location).attr('href', './login.html');
+            }</script></body></html>

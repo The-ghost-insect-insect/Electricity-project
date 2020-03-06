@@ -20,12 +20,12 @@
         <span></span>
         <div class="top">
             <ul class="top-list clean">
-                <li><a href="#">在线商城</a>
+                <li class="active"><a href="#">在线商城</a>
                 <li>
-                <li class="active"><a href="#">商品列表</a></li>
-                <li><a href="#">坚果 Pro 2S</a></li>
-                <li><a href="#">坚果 TNT 工作站</a></li>
-                <li><a href="#">Smartisan OS</a></li>
+                <li class="shangpinlb"><a href="#">商品列表</a></li>
+                <li class="gouwuche"><a href="#">购物车</a></li>
+                <li class="denglu"><a href="#">登录</a></li>
+                <li class="zhuce"><a href="#">注册</a></li>
                 <li><a href="#">欢喜云</a></li>
                 <li><a href="#">应用</a></li>
                 <li><a href="#">论坛</a></li>
@@ -84,7 +84,9 @@
                         dataType: "json",
                         success: function (res) {
                             let str = ''
-                            res.forEach(item => {
+                            let arr =  res.slice(0,5)
+                            console.log(arr)                         
+                           arr.forEach(item => {
                                 str += `
                             <li><a href="#">${item.name}</a></li>
                             `
@@ -101,14 +103,16 @@
                                     const index = $(this).index()
                                    // console.log(index)
                                     const list = res[index].list
-                                    //console.log(list)
+                                    console.log(list)
                                     let str = ''
                                     list.forEach(item => {
                                         str += `
                                     <li class="biaoti">
                                     <p>${item.title}</p>  
                                     <ol>`
-                                        item.sub.forEach(item2 => {
+                                    console.log(item.sub)
+                                        
+                                    item.sub.forEach(item2 => {
                                             str += `<li class="ol-list"><img src="${item2.image}" alt=""><span>${item2.name}</span></li>`
                                         })
                                         str += ` </ol>
@@ -157,20 +161,28 @@
     </script>
 
 
-    <!-- <script>
+    <script>
         $(document).ready(function(){
-            $('.nav>li').click(function(){
+            console.log(document.cookie)
+            $('.top-list>li').click(function(){
                 $(this).addClass('active'). siblings().removeClass('active')
             })
             $('.zhuce').click(function(){
                 $(location).attr('href', './zhuce.html');
             })
+            $('.shangpinlb').click(function(){
+                $(location).attr('href', './list.html');
+            })
             $('.denglu').click(function(){
                 $(location).attr('href', './login.html');
             })
+            $('.gouwuche').click(function(){
+                $(location).attr('href', './cart.html');
+            })
         })
 
-    </script> -->
+    </script>
+ 
 </body>
 
 </html>

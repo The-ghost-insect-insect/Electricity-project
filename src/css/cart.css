@@ -1,0 +1,89 @@
+.gouwu{
+    width: 1218px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+.all{
+   
+    border-bottom: 2px solid gainsboro;
+    padding:5px;
+}
+.all>.all-inp{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin:10px;
+}
+.all>span{
+    font-size: 30px;
+    line-height: 1;
+    position: relative;
+    top:-5px
+}
+.content-list>li>div{
+    float: left;
+    font-size: 30px;
+}
+.content-list>li>div:nth-of-type(2){
+    width: 200px;
+    margin-right: 30px;
+}
+.bottom-list>li{
+    float: left;
+
+}
+.content-list>.list input,button{
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+.content-list>.list{
+    height: 60px;
+    border-bottom: 2px solid gainsboro;
+}
+.content-list>.list>.danxuan{
+    margin: 5px;
+}
+.content{
+    padding: 5px;
+}
+.content img{
+    width: 50px;
+    height: 50px;
+    display:block;
+    float: left;
+    
+}
+.del{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-left: 30px;
+    border: 1px solid black;
+}
+.content>.info>h4{
+    float: right;
+    width: 200px;
+}
+.bottom{
+    width: 1218px;
+    height: 60px;
+    font-size: 30px;
+}
+.bottom>.bottom-list>li,button{
+    margin-right: 30px;
+
+}
+
+.bottom>.bottom-list>li>button{
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+}
+.bottom>.bottom-list>li>p,span{
+    margin-top: 8px;
+}
+.nu>.price{
+    width: 200px;
+    margin-right: 30px;
+}

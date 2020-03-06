@@ -1,0 +1,27 @@
+.xiangqing{
+    width: 1218px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.img-list img{
+    display: block;
+    width: 500px;
+    height: 600px;    
+}
+.img-list>li>div{
+    float: left;
+}
+.img-list h2,h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.img-list>li>.box2{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.img-list button{
+    margin-top: 200px;
+    width: 100px;
+    height: 60px;
+    margin-right:50px;
+}
